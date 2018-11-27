@@ -37,7 +37,7 @@ end
 return
 end
 
-function sqarea_triangle(a::T,b::T,c::T) where {T <: Real}
+function sqarea_triangle(a,b::T,c::T) where {T <: Real}
 # Function which computes sixteen times the square of the area
 # of a triangle with sides a, b and c using Kahan method.
 # How to compute (sixteen times the) area squared of triangle with 
